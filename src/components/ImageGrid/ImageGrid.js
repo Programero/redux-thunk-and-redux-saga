@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Button from '../Button/Button';
 import { connect } from 'react-redux';
-import { fetchImages } from '../../redux/thunk-action-creators';
+import { fetchImagesThunk } from '../../redux/thunk-action-creators';
 import './styles.css';
 
 // const key = '5f96323678d05ff0c4eb264ef184556868e303b32a2db88ecbf15746e6f25e02';
@@ -59,7 +59,7 @@ const mapStateToProps = state => ({
     loading: state.loading,
 });
 const mapDispatchToProps = dispatch => ({
-    fetchImages: (numOfImages = 10) => dispatch(fetchImages(numOfImages)),
+    fetchImages: (numOfImages = 10) => dispatch(fetchImagesThunk(numOfImages)),
 });
 export default connect(
     mapStateToProps,

@@ -5686,9 +5686,10 @@
   dependencies:
     "balanced-match" "^0.4.2"
 
-"redux-saga@^0.16.0":
-  "resolved" "https://registry.npmjs.org/redux-saga/-/redux-saga-0.16.0.tgz"
-  "version" "0.16.0"
+"redux-saga@^0.16.2":
+  "integrity" "sha512-iIjKnRThI5sKPEASpUvySemjzwqwI13e3qP7oLub+FycCRDysLSAOwt958niZW6LhxfmS6Qm1BzbU70w/Koc4w=="
+  "resolved" "https://registry.npmjs.org/redux-saga/-/redux-saga-0.16.2.tgz"
+  "version" "0.16.2"
 
 "redux-thunk@^2.4.2":
   "integrity" "sha512-+P3TjtnP0k/FEjcBL5FZpoovtvrTNT/UXd4/sluaSyrURlSlhLSzEdfsTBW7WsKB6yPvgd7q/iZPICFjW4o57Q=="
